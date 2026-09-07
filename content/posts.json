@@ -38,8 +38,8 @@
     "3760. Maximum Substrings With Distinct Start.py": {
         "title": "LeetCode 3760. Maximum Substrings With Distinct Start",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-07T18:48:47.139328+00:00",
         "caption": "LeetCode 3760. Maximum Substrings With Distinct Start\n\nDifficulty: Medium\n\nThe problem asks for the maximum number of distinct characters in a string. The first approach builds a list incrementally, adding characters only if they haven't been seen before. The second approach uses Python's set to achieve the same result more succinctly. Sets inherently handle uniqueness, making the second solution more efficient in terms of time and space complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3760.+Maximum+Substrings+With+Distinct+Start",
         "code": "content/codes/finished/medium/3760. Maximum Substrings With Distinct Start.py",
         "image": "content/images/3760. Maximum Substrings With Distinct Start.png"
