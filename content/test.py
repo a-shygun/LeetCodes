@@ -1,15 +1,16 @@
-ans = float("inf")
-mln = float("inf")
-mnw = float("inf")
+klist = []
+n = len(arr)
 
-for i in range(len(landStartTime)):
-    mln = min(mln, landStartTime[i] + landDuration[i])
+while n > 1:
+    k_val = max(arr[:n])
+    k_idx = arr.index(k_val) + 1
 
-for i in range(len(waterStartTime)):
-    ans = min(ans, max(mln, waterStartTime[i]) + waterDuration[i])
+    arr[:k_idx] = reversed(arr[:k_idx])
+    klist.append(k_idx)
 
-for i in range(len(waterStartTime)):
-    mnw = min(mnw, waterStartTime[i] + waterDuration[i])
+    arr[:n] = reversed(arr[:n])
+    klist.append(n)
 
-for i in range(len(landStartTime)):
-    ans = min(ans, max(mnw, landStartTime[i]) + landDuration[i])
+    n -= 1
+
+print(klist)

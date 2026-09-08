@@ -11,6 +11,7 @@ CONTENT_DIR = BASE_DIR / "content"
 
 FINISHED_DIR = CONTENT_DIR / "codes" / "finished"
 
+EASY_DIR = FINISHED_DIR / "easy"
 MEDIUM_DIR = FINISHED_DIR / "medium"
 HARD_DIR = FINISHED_DIR / "hard"
 
@@ -31,7 +32,7 @@ def get_theme(name):
 def get_files():
     files = []
 
-    for directory in (MEDIUM_DIR, HARD_DIR):
+    for directory in (EASY_DIR, MEDIUM_DIR, HARD_DIR):
         if not directory.exists():
             continue
 

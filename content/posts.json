@@ -79,5 +79,221 @@
         "caption": "LeetCode 739. Daily Temperatures\n\nDifficulty: Medium\n\nThe Daily Temperatures problem requires finding how many days until a warmer temperature for each day. The solution uses a stack to track indices of temperatures, updating the output when a warmer temperature is found. The stack ensures efficient processing by avoiding unnecessary comparisons. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=739.+Daily+Temperatures",
         "code": "content/codes/finished/medium/739. Daily Temperatures.py",
         "image": "content/images/739. Daily Temperatures.png"
+    },
+    "3635. Earliest Finish Time for Land and Water Rides II.py": {
+        "title": "LeetCode 3635. Earliest Finish Time for Land and Water Rides II",
+        "difficulty": "Medium",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 3635. Earliest Finish Time for Land and Water Rides II\n\nDifficulty: Medium\n\nThe problem requires finding the earliest time to finish all land and water rides given their start times and durations. The solution computes the earliest possible end time for land rides, then uses that to determine the earliest finish time for water rides, and vice versa. It efficiently checks overlapping constraints by minimizing key values and combining them with max operations. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3635.+Earliest+Finish+Time+for+Land+and+Water+Rides+II",
+        "code": "content/codes/finished/medium/3635. Earliest Finish Time for Land and Water Rides II.py",
+        "image": "content/images/3635. Earliest Finish Time for Land and Water Rides II.png"
+    },
+    "3857. Minimum Cost to Split into Ones.py": {
+        "title": "LeetCode 3857. Minimum Cost to Split into Ones",
+        "difficulty": "Medium",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 3857. Minimum Cost to Split into Ones\n\nDifficulty: Medium\n\nThe problem involves calculating the minimum cost to split a sequence into ones. The solution uses a straightforward approach, iterating through each number and calculating the product of 1 and the previous number minus one, summing these values. The implementation efficiently accumulates the result in a single loop, leading to a time complexity of O(n) and space complexity of O(1). #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3857.+Minimum+Cost+to+Split+into+Ones",
+        "code": "content/codes/finished/medium/3857. Minimum Cost to Split into Ones.py",
+        "image": "content/images/3857. Minimum Cost to Split into Ones.png"
+    },
+    "969. Pancake Sorting.py": {
+        "title": "LeetCode 969. Pancake Sorting",
+        "difficulty": "Medium",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 969. Pancake Sorting\n\nDifficulty: Medium\n\nPancake sorting involves rearranging an array into ascending order by flipping prefix segments. The approach here uses repeated flips to bring the largest remaining element to the front and then to its correct position. The implementation carefully tracks flip positions and reverses slices directly rather than using built-in reverse functions. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=969.+Pancake+Sorting",
+        "code": "content/codes/finished/medium/969. Pancake Sorting.py",
+        "image": "content/images/969. Pancake Sorting.png"
+    },
+    "1. Two Sum.py": {
+        "title": "LeetCode 1. Two Sum",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 1. Two Sum\n\nDifficulty: Easy\n\nThe Two Sum problem requires finding two distinct indices in an array that sum to a given target. The provided solution uses a linear scan, modifying the array by setting elements to None after checking for a match. This approach leverages the presence check of None to avoid revisiting the same element. However, the time complexity remains O(n²) due to repeated searches in the list. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1.+Two+Sum",
+        "code": "content/codes/finished/easy/1. Two Sum.py",
+        "image": "content/images/1. Two Sum.png"
+    },
+    "1365. How Many Numbers Are Smaller Than the Current Number.py": {
+        "title": "LeetCode 1365. How Many Numbers Are Smaller Than the Current Number",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 1365. How Many Numbers Are Smaller Than the Current Number\n\nDifficulty: Easy\n\nThe problem requires returning a list where each element represents how many numbers in the input list are smaller than the current number. The solution sorts the list and uses a dictionary to track the first occurrence index of each number, effectively mapping each number to how many numbers came before it in the sorted list. This approach leverages sorting for simplicity, resulting in O(n log n) time complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1365.+How+Many+Numbers+Are+Smaller+Than+the+Current+Number",
+        "code": "content/codes/finished/easy/1365. How Many Numbers Are Smaller Than the Current Number.py",
+        "image": "content/images/1365. How Many Numbers Are Smaller Than the Current Number.png"
+    },
+    "1470. Shuffle the Array.py": {
+        "title": "LeetCode 1470. Shuffle the Array",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 1470. Shuffle the Array\n\nDifficulty: Easy\n\nShuffle the array by splitting it into two halves and interleaving them. The solution uses slicing and zip to combine the two parts efficiently. straightforward approach with O(n) time and O(n) space complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1470.+Shuffle+the+Array",
+        "code": "content/codes/finished/easy/1470. Shuffle the Array.py",
+        "image": "content/images/1470. Shuffle the Array.png"
+    },
+    "1475. Final Prices With a Special Discount in a Shop.py": {
+        "title": "LeetCode 1475. Final Prices With a Special Discount in a Shop",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 1475. Final Prices With a Special Discount in a Shop\n\nDifficulty: Easy\n\nThe problem requires finding the final price of each item after applying a discount to subsequent items that meet certain criteria. The implementation uses nested loops to scan through prices, subtracting eligible discounts as they are found. The inner loop breaks early once a valid discount is applied, which can save time in some cases but may not be optimal for all scenarios. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1475.+Final+Prices+With+a+Special+Discount+in+a+Shop",
+        "code": "content/codes/finished/easy/1475. Final Prices With a Special Discount in a Shop.py",
+        "image": "content/images/1475. Final Prices With a Special Discount in a Shop.png"
+    },
+    "1929. Concatenation of Array.py": {
+        "title": "LeetCode 1929. Concatenation of Array",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 1929. Concatenation of Array\n\nDifficulty: Easy\n\nConcatenating a array with itself by iterating once and copying elements to two positions. Used a fixed-size output list to avoid dynamic resizing overhead. Time complexity O(n), space O(n). #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1929.+Concatenation+of+Array",
+        "code": "content/codes/finished/easy/1929. Concatenation of Array.py",
+        "image": "content/images/1929. Concatenation of Array.png"
+    },
+    "2469. Convert the Temperature.py": {
+        "title": "LeetCode 2469. Convert the Temperature",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 2469. Convert the Temperature\n\nDifficulty: Easy\n\nLeetCode 2469 asks to convert a temperature from Celsius to both Kelvin and Fahrenheit. The solution directly computes both values using simple mathematical operations without any conditional checks or nested logic. The implementation leverages floating-point arithmetic for precision and avoids unnecessary intermediate steps. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=2469.+Convert+the+Temperature",
+        "code": "content/codes/finished/easy/2469. Convert the Temperature.py",
+        "image": "content/images/2469. Convert the Temperature.png"
+    },
+    "2703. Return Length of Arguments Passed.js": {
+        "title": "LeetCode 2703. Return Length of Arguments Passed",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 2703. Return Length of Arguments Passed\n\nDifficulty: Easy\n\nThe problem requires returning the number of arguments passed to a function. The solution uses the spread operator to capture all arguments into an array, making it straightforward to return the length. The approach leverages JavaScript's ability to handle variable arguments effectively. #LeetCode #JavaScript #Algorithms\n\nhttps://leetcode.com/search/?q=2703.+Return+Length+of+Arguments+Passed",
+        "code": "content/codes/finished/easy/2703. Return Length of Arguments Passed.js",
+        "image": "content/images/2703. Return Length of Arguments Passed.png"
+    },
+    "2879. Display the First Three Rows.py": {
+        "title": "LeetCode 2879. Display the First Three Rows",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 2879. Display the First Three Rows\n\nDifficulty: Easy\n\nLeetCode problem 2879 asks to display the first three rows of a DataFrame. The solution uses pandas' built-in `head` method, which efficiently returns the first n rows. This approach leverages pandas' optimized internal handling of data retrieval. #LeetCode #Python #DataFrames\n\nhttps://leetcode.com/search/?q=2879.+Display+the+First+Three+Rows",
+        "code": "content/codes/finished/easy/2879. Display the First Three Rows.py",
+        "image": "content/images/2879. Display the First Three Rows.png"
+    },
+    "2881. Create a New Column.py": {
+        "title": "LeetCode 2881. Create a New Column",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 2881. Create a New Column\n\nDifficulty: Easy\n\nThe problem requires adding a new column to a DataFrame that is twice the value of the salary column. The solution directly multiplies the salary column by two and assigns it as the new 'bonus' column. This approach leverages pandas' vectorized operations for simplicity and efficiency. #LeetCode #Python #DataFrames\n\nhttps://leetcode.com/search/?q=2881.+Create+a+New+Column",
+        "code": "content/codes/finished/easy/2881. Create a New Column.py",
+        "image": "content/images/2881. Create a New Column.png"
+    },
+    "2884. Modify Columns.py": {
+        "title": "LeetCode 2884. Modify Columns",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 2884. Modify Columns\n\nDifficulty: Easy\n\nThe problem requires doubling the salary column in a DataFrame. The solution leverages pandas' in-place operations for simplicity and efficiency. By multiplying the 'salary' column directly, the code avoids unnecessary copies and maintains clarity. #LeetCode #Python #DataFrames\n\nhttps://leetcode.com/search/?q=2884.+Modify+Columns",
+        "code": "content/codes/finished/easy/2884. Modify Columns.py",
+        "image": "content/images/2884. Modify Columns.png"
+    },
+    "3110. Score of a String.py": {
+        "title": "LeetCode 3110. Score of a String",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 3110. Score of a String\n\nDifficulty: Easy\n\nThe problem requires calculating the sum of absolute differences between consecutive characters in a string. The solution iterates through the string pairwise, comparing each pair of adjacent characters and accumulating their absolute difference. By moving two pointers at a time, it avoids redundant checks and maintains simplicity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3110.+Score+of+a+String",
+        "code": "content/codes/finished/easy/3110. Score of a String.py",
+        "image": "content/images/3110. Score of a String.png"
+    },
+    "35. Search Insert Position.py": {
+        "title": "LeetCode 35. Search Insert Position",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 35. Search Insert Position\n\nDifficulty: Easy\n\nBinary search for insertion position. The code uses a standard binary search approach, adjusting the left pointer when the target is less than the mid element. The insertion index is returned when the target is not found. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=35.+Search+Insert+Position",
+        "code": "content/codes/finished/easy/35. Search Insert Position.py",
+        "image": "content/images/35. Search Insert Position.png"
+    },
+    "3668. Restore Finishing Order.py": {
+        "title": "LeetCode 3668. Restore Finishing Order",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 3668. Restore Finishing Order\n\nDifficulty: Easy\n\nThe problem requires restoring the finishing order of friends based on a given order list. The solution iterates through the order list and appends elements that exist in the friends list. This approach directly uses the input order to construct the result, ensuring alignment with the given sequence. It’s straightforward but assumes the order list is valid and contains only indices present in friends. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3668.+Restore+Finishing+Order",
+        "code": "content/codes/finished/easy/3668. Restore Finishing Order.py",
+        "image": "content/images/3668. Restore Finishing Order.png"
+    },
+    "3875. Construct Uniform Parity Array I.py": {
+        "title": "LeetCode 3875. Construct Uniform Parity Array I",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 3875. Construct Uniform Parity Array I\n\nDifficulty: Easy\n\nThe problem checks if an array can be transformed into a uniform parity array by either making all elements even or all odd. The solution counts even and odd numbers in the input array and returns true if all are even, all are odd, or there's at least one of each. The approach is straightforward and runs in linear time, which is efficient for this task. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3875.+Construct+Uniform+Parity+Array+I",
+        "code": "content/codes/finished/easy/3875. Construct Uniform Parity Array I.py",
+        "image": "content/images/3875. Construct Uniform Parity Array I.png"
+    },
+    "3903. Smallest Stable Index I.py": {
+        "title": "LeetCode 3903. Smallest Stable Index I",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 3903. Smallest Stable Index I\n\nDifficulty: Easy\n\nThe problem requires finding the first index in an array where the difference between the maximum and minimum values in any window of size k+1 is at most k. The approach builds a max prefix array and a min suffix array to efficiently determine valid windows. The max prefix array tracks the maximum value up to each index, while the min suffix array tracks the minimum from each index backward, allowing for quick range checks.\n\n#LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3903.+Smallest+Stable+Index+I",
+        "code": "content/codes/finished/easy/3903. Smallest Stable Index I.py",
+        "image": "content/images/3903. Smallest Stable Index I.png"
+    },
+    "4006. Count Valid Prefixes.py": {
+        "title": "LeetCode 4006. Count Valid Prefixes",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 4006. Count Valid Prefixes\n\nDifficulty: Easy\n\nCount valid prefixes where the count of '0' and '1' differs by at most one. The approach tracks occurrences of '0' and '1' as it iterates through the string, incrementing a counter whenever the difference between their counts is within the allowed range. The implementation uses a dictionary to track counts efficiently. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=4006.+Count+Valid+Prefixes",
+        "code": "content/codes/finished/easy/4006. Count Valid Prefixes.py",
+        "image": "content/images/4006. Count Valid Prefixes.png"
+    },
+    "448. Find All Numbers Disappeared in an Array.py": {
+        "title": "LeetCode 448. Find All Numbers Disappeared in an Array",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 448. Find All Numbers Disappeared in an Array\n\nDifficulty: Easy\n\nThe problem requires finding all numbers in a range that are missing from an array. The solution uses set operations to identify the difference between expected and actual values. By leveraging set subtraction, it efficiently determines missing numbers without modifying the input. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=448.+Find+All+Numbers+Disappeared+in+an+Array",
+        "code": "content/codes/finished/easy/448. Find All Numbers Disappeared in an Array.py",
+        "image": "content/images/448. Find All Numbers Disappeared in an Array.png"
+    },
+    "485. Max Consecutive Ones.py": {
+        "title": "LeetCode 485. Max Consecutive Ones",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 485. Max Consecutive Ones\n\nDifficulty: Easy\n\nMax Consecutive Ones problem asks for the longest sequence of 1s in a binary array. The solution iterates through the array, incrementing a counter when encountering a 1 and resetting it on encountering a 0, while tracking the maximum count seen. The approach keeps track of current streak and overall maximum in a single pass, making it efficient with O(n) time and O(1) space complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=485.+Max+Consecutive+Ones",
+        "code": "content/codes/finished/easy/485. Max Consecutive Ones.py",
+        "image": "content/images/485. Max Consecutive Ones.png"
+    },
+    "496. Next Greater Element I.py": {
+        "title": "LeetCode 496. Next Greater Element I",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 496. Next Greater Element I\n\nDifficulty: Easy\n\nUsing a stack to track elements and their next greater values efficiently. The solution builds a mapping from each element to its next greater element in nums2, then uses this mapping to answer queries for nums1. The stack ensures we process elements in O(n) time with O(n) space complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=496.+Next+Greater+Element+I",
+        "code": "content/codes/finished/easy/496. Next Greater Element I.py",
+        "image": "content/images/496. Next Greater Element I.png"
+    },
+    "645. Set Mismatch.py": {
+        "title": "LeetCode 645. Set Mismatch",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 645. Set Mismatch\n\nDifficulty: Easy\n\nThe problem identifies a duplicate and missing number in an array where each element is between 1 and n (inclusive). The solution uses a frequency counter to detect the duplicate by tracking counts, and identifies the missing number by checking for gaps in the sequence. The approach has O(n) time complexity and O(n) space complexity, trading space for simplicity. #LeetCode # Python #Algorithms\n\nhttps://leetcode.com/search/?q=645.+Set+Mismatch",
+        "code": "content/codes/finished/easy/645. Set Mismatch.py",
+        "image": "content/images/645. Set Mismatch.png"
+    },
+    "709. To Lower Case.py": {
+        "title": "LeetCode 709. To Lower Case",
+        "difficulty": "Easy",
+        "posted": false,
+        "posted_at": null,
+        "caption": "LeetCode 709. To Lower Case\n\nDifficulty: Easy\n\nLeetCode problem 709 asks to convert all uppercase characters in a string to lowercase. The solution uses Python's built-in `lower()` method, which efficiently handles the conversion. This approach leverages language-specific optimizations for simplicity and readability. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=709.+To+Lower+Case",
+        "code": "content/codes/finished/easy/709. To Lower Case.py",
+        "image": "content/images/709. To Lower Case.png"
     }
 }
