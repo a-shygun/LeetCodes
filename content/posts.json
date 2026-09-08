@@ -47,8 +47,8 @@
     "503. Next Greater Element II.py": {
         "title": "LeetCode 503. Next Greater Element II",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-08T18:00:20.729424+00:00",
         "caption": "LeetCode 503. Next Greater Element II\n\nDifficulty: Medium\n\nThis problem requires finding the next greater element for each position in a circular array. The solution uses a single pass with a stack to track indices and efficiently compute the results. By iterating twice the length of the array, it handles the circular nature without additional space. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=503.+Next+Greater+Element+II",
         "code": "content/codes/finished/medium/503. Next Greater Element II.py",
         "image": "content/images/503. Next Greater Element II.png"
