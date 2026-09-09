@@ -56,8 +56,8 @@
     "624. Maximum Distance in Arrays.py": {
         "title": "LeetCode 624. Maximum Distance in Arrays",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-09T17:55:17.397357+00:00",
         "caption": "LeetCode 624. Maximum Distance in Arrays\n\nDifficulty: Medium\n\nThe problem involves finding the maximum distance between the minimum and maximum values across multiple arrays. The solution computes min and max for each array, then calculates the largest difference between a max from one array and a min from another. The approach uses nested list operations to find the optimal pair efficiently. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=624.+Maximum+Distance+in+Arrays",
         "code": "content/codes/finished/medium/624. Maximum Distance in Arrays.py",
         "image": "content/images/624. Maximum Distance in Arrays.png"
