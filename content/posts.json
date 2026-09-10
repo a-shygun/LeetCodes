@@ -65,8 +65,8 @@
     "636. Exclusive Time of Functions.py": {
         "title": "LeetCode 636. Exclusive Time of Functions",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-10T17:47:24.174533+00:00",
         "caption": "LeetCode 636. Exclusive Time of Functions\n\nDifficulty: Medium\n\nThe problem tracks the exclusive time each function runs given a log of function calls and execution times. The solution uses a stack to track active functions and calculates time differences between log entries. The key detail is adjusting the end time by +1 to account for the current log entry being processed. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=636.+Exclusive+Time+of+Functions",
         "code": "content/codes/finished/medium/636. Exclusive Time of Functions.py",
         "image": "content/images/636. Exclusive Time of Functions.png"
