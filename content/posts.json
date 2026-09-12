@@ -83,8 +83,8 @@
     "3635. Earliest Finish Time for Land and Water Rides II.py": {
         "title": "LeetCode 3635. Earliest Finish Time for Land and Water Rides II",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-12T17:21:45.748925+00:00",
         "caption": "LeetCode 3635. Earliest Finish Time for Land and Water Rides II\n\nDifficulty: Medium\n\nThe problem requires finding the earliest time to finish all land and water rides given their start times and durations. The solution computes the earliest possible end time for land rides, then uses that to determine the earliest finish time for water rides, and vice versa. It efficiently checks overlapping constraints by minimizing key values and combining them with max operations. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3635.+Earliest+Finish+Time+for+Land+and+Water+Rides+II",
         "code": "content/codes/finished/medium/3635. Earliest Finish Time for Land and Water Rides II.py",
         "image": "content/images/3635. Earliest Finish Time for Land and Water Rides II.png"
