@@ -92,8 +92,8 @@
     "3857. Minimum Cost to Split into Ones.py": {
         "title": "LeetCode 3857. Minimum Cost to Split into Ones",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-13T17:32:22.282514+00:00",
         "caption": "LeetCode 3857. Minimum Cost to Split into Ones\n\nDifficulty: Medium\n\nThe problem involves calculating the minimum cost to split a sequence into ones. The solution uses a straightforward approach, iterating through each number and calculating the product of 1 and the previous number minus one, summing these values. The implementation efficiently accumulates the result in a single loop, leading to a time complexity of O(n) and space complexity of O(1). #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3857.+Minimum+Cost+to+Split+into+Ones",
         "code": "content/codes/finished/medium/3857. Minimum Cost to Split into Ones.py",
         "image": "content/images/3857. Minimum Cost to Split into Ones.png"
