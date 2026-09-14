@@ -101,8 +101,8 @@
     "969. Pancake Sorting.py": {
         "title": "LeetCode 969. Pancake Sorting",
         "difficulty": "Medium",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-14T19:32:18.251347+00:00",
         "caption": "LeetCode 969. Pancake Sorting\n\nDifficulty: Medium\n\nPancake sorting involves rearranging an array into ascending order by flipping prefix segments. The approach here uses repeated flips to bring the largest remaining element to the front and then to its correct position. The implementation carefully tracks flip positions and reverses slices directly rather than using built-in reverse functions. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=969.+Pancake+Sorting",
         "code": "content/codes/finished/medium/969. Pancake Sorting.py",
         "image": "content/images/969. Pancake Sorting.png"
