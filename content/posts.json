@@ -110,8 +110,8 @@
     "1. Two Sum.py": {
         "title": "LeetCode 1. Two Sum",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-15T18:23:20.097185+00:00",
         "caption": "LeetCode 1. Two Sum\n\nDifficulty: Easy\n\nThe Two Sum problem requires finding two distinct indices in an array that sum to a given target. The provided solution uses a linear scan, modifying the array by setting elements to None after checking for a match. This approach leverages the presence check of None to avoid revisiting the same element. However, the time complexity remains O(n²) due to repeated searches in the list. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1.+Two+Sum",
         "code": "content/codes/finished/easy/1. Two Sum.py",
         "image": "content/images/1. Two Sum.png"
