@@ -119,8 +119,8 @@
     "1365. How Many Numbers Are Smaller Than the Current Number.py": {
         "title": "LeetCode 1365. How Many Numbers Are Smaller Than the Current Number",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-16T18:19:04.307239+00:00",
         "caption": "LeetCode 1365. How Many Numbers Are Smaller Than the Current Number\n\nDifficulty: Easy\n\nThe problem requires returning a list where each element represents how many numbers in the input list are smaller than the current number. The solution sorts the list and uses a dictionary to track the first occurrence index of each number, effectively mapping each number to how many numbers came before it in the sorted list. This approach leverages sorting for simplicity, resulting in O(n log n) time complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1365.+How+Many+Numbers+Are+Smaller+Than+the+Current+Number",
         "code": "content/codes/finished/easy/1365. How Many Numbers Are Smaller Than the Current Number.py",
         "image": "content/images/1365. How Many Numbers Are Smaller Than the Current Number.png"
