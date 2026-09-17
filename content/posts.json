@@ -128,8 +128,8 @@
     "1470. Shuffle the Array.py": {
         "title": "LeetCode 1470. Shuffle the Array",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-17T18:26:07.216677+00:00",
         "caption": "LeetCode 1470. Shuffle the Array\n\nDifficulty: Easy\n\nShuffle the array by splitting it into two halves and interleaving them. The solution uses slicing and zip to combine the two parts efficiently. straightforward approach with O(n) time and O(n) space complexity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1470.+Shuffle+the+Array",
         "code": "content/codes/finished/easy/1470. Shuffle the Array.py",
         "image": "content/images/1470. Shuffle the Array.png"
