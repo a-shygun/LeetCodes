@@ -137,8 +137,8 @@
     "1475. Final Prices With a Special Discount in a Shop.py": {
         "title": "LeetCode 1475. Final Prices With a Special Discount in a Shop",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-18T17:47:02.910251+00:00",
         "caption": "LeetCode 1475. Final Prices With a Special Discount in a Shop\n\nDifficulty: Easy\n\nThe problem requires finding the final price of each item after applying a discount to subsequent items that meet certain criteria. The implementation uses nested loops to scan through prices, subtracting eligible discounts as they are found. The inner loop breaks early once a valid discount is applied, which can save time in some cases but may not be optimal for all scenarios. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1475.+Final+Prices+With+a+Special+Discount+in+a+Shop",
         "code": "content/codes/finished/easy/1475. Final Prices With a Special Discount in a Shop.py",
         "image": "content/images/1475. Final Prices With a Special Discount in a Shop.png"
