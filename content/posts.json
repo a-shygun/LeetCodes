@@ -146,8 +146,8 @@
     "1929. Concatenation of Array.py": {
         "title": "LeetCode 1929. Concatenation of Array",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-19T17:21:42.530776+00:00",
         "caption": "LeetCode 1929. Concatenation of Array\n\nDifficulty: Easy\n\nConcatenating a array with itself by iterating once and copying elements to two positions. Used a fixed-size output list to avoid dynamic resizing overhead. Time complexity O(n), space O(n). #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=1929.+Concatenation+of+Array",
         "code": "content/codes/finished/easy/1929. Concatenation of Array.py",
         "image": "content/images/1929. Concatenation of Array.png"
