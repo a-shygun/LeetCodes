@@ -155,8 +155,8 @@
     "2469. Convert the Temperature.py": {
         "title": "LeetCode 2469. Convert the Temperature",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-20T17:34:29.717772+00:00",
         "caption": "LeetCode 2469. Convert the Temperature\n\nDifficulty: Easy\n\nLeetCode 2469 asks to convert a temperature from Celsius to both Kelvin and Fahrenheit. The solution directly computes both values using simple mathematical operations without any conditional checks or nested logic. The implementation leverages floating-point arithmetic for precision and avoids unnecessary intermediate steps. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=2469.+Convert+the+Temperature",
         "code": "content/codes/finished/easy/2469. Convert the Temperature.py",
         "image": "content/images/2469. Convert the Temperature.png"
