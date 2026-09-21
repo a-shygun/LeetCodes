@@ -164,8 +164,8 @@
     "2703. Return Length of Arguments Passed.js": {
         "title": "LeetCode 2703. Return Length of Arguments Passed",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-21T19:39:27.382640+00:00",
         "caption": "LeetCode 2703. Return Length of Arguments Passed\n\nDifficulty: Easy\n\nThe problem requires returning the number of arguments passed to a function. The solution uses the spread operator to capture all arguments into an array, making it straightforward to return the length. The approach leverages JavaScript's ability to handle variable arguments effectively. #LeetCode #JavaScript #Algorithms\n\nhttps://leetcode.com/search/?q=2703.+Return+Length+of+Arguments+Passed",
         "code": "content/codes/finished/easy/2703. Return Length of Arguments Passed.js",
         "image": "content/images/2703. Return Length of Arguments Passed.png"
