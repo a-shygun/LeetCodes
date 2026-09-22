@@ -173,8 +173,8 @@
     "2879. Display the First Three Rows.py": {
         "title": "LeetCode 2879. Display the First Three Rows",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-22T18:12:41.791288+00:00",
         "caption": "LeetCode 2879. Display the First Three Rows\n\nDifficulty: Easy\n\nLeetCode problem 2879 asks to display the first three rows of a DataFrame. The solution uses pandas' built-in `head` method, which efficiently returns the first n rows. This approach leverages pandas' optimized internal handling of data retrieval. #LeetCode #Python #DataFrames\n\nhttps://leetcode.com/search/?q=2879.+Display+the+First+Three+Rows",
         "code": "content/codes/finished/easy/2879. Display the First Three Rows.py",
         "image": "content/images/2879. Display the First Three Rows.png"
