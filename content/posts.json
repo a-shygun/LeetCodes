@@ -182,8 +182,8 @@
     "2881. Create a New Column.py": {
         "title": "LeetCode 2881. Create a New Column",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-23T18:31:16.806591+00:00",
         "caption": "LeetCode 2881. Create a New Column\n\nDifficulty: Easy\n\nThe problem requires adding a new column to a DataFrame that is twice the value of the salary column. The solution directly multiplies the salary column by two and assigns it as the new 'bonus' column. This approach leverages pandas' vectorized operations for simplicity and efficiency. #LeetCode #Python #DataFrames\n\nhttps://leetcode.com/search/?q=2881.+Create+a+New+Column",
         "code": "content/codes/finished/easy/2881. Create a New Column.py",
         "image": "content/images/2881. Create a New Column.png"
