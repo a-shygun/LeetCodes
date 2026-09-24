@@ -191,8 +191,8 @@
     "2884. Modify Columns.py": {
         "title": "LeetCode 2884. Modify Columns",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-24T18:34:01.207956+00:00",
         "caption": "LeetCode 2884. Modify Columns\n\nDifficulty: Easy\n\nThe problem requires doubling the salary column in a DataFrame. The solution leverages pandas' in-place operations for simplicity and efficiency. By multiplying the 'salary' column directly, the code avoids unnecessary copies and maintains clarity. #LeetCode #Python #DataFrames\n\nhttps://leetcode.com/search/?q=2884.+Modify+Columns",
         "code": "content/codes/finished/easy/2884. Modify Columns.py",
         "image": "content/images/2884. Modify Columns.png"
