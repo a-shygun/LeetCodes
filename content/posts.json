@@ -200,8 +200,8 @@
     "3110. Score of a String.py": {
         "title": "LeetCode 3110. Score of a String",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-25T18:48:25.557154+00:00",
         "caption": "LeetCode 3110. Score of a String\n\nDifficulty: Easy\n\nThe problem requires calculating the sum of absolute differences between consecutive characters in a string. The solution iterates through the string pairwise, comparing each pair of adjacent characters and accumulating their absolute difference. By moving two pointers at a time, it avoids redundant checks and maintains simplicity. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=3110.+Score+of+a+String",
         "code": "content/codes/finished/easy/3110. Score of a String.py",
         "image": "content/images/3110. Score of a String.png"
