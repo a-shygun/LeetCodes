@@ -209,8 +209,8 @@
     "35. Search Insert Position.py": {
         "title": "LeetCode 35. Search Insert Position",
         "difficulty": "Easy",
-        "posted": false,
-        "posted_at": null,
+        "posted": true,
+        "posted_at": "2026-09-26T17:53:59.227673+00:00",
         "caption": "LeetCode 35. Search Insert Position\n\nDifficulty: Easy\n\nBinary search for insertion position. The code uses a standard binary search approach, adjusting the left pointer when the target is less than the mid element. The insertion index is returned when the target is not found. #LeetCode #Python #Algorithms\n\nhttps://leetcode.com/search/?q=35.+Search+Insert+Position",
         "code": "content/codes/finished/easy/35. Search Insert Position.py",
         "image": "content/images/35. Search Insert Position.png"
